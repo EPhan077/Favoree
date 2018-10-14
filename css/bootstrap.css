@@ -4055,7 +4055,6 @@ input[type="button"].btn-block {
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
 }
@@ -5407,11 +5406,6 @@ button.close {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
-  outline: 0;
 }
 
 .modal-backdrop {

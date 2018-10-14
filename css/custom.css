@@ -1,2 +1,123 @@
-p {
-  color: #222222; }
+.navbar-nav a,
+.modal-body a,
+.nav-page-link {
+  color: #c6634c; }
+
+.navbar-nav a:hover,
+.modal-body a:hover,
+.nav-page-link:hover {
+  color: #d4af37; }
+
+.modal-backdrop,
+.secondary-page,
+#contact-info,
+#contact-form {
+  background-color: #dcd4c9; }
+
+.modal-backdrop.fade {
+  opacity: 1; }
+
+.modal-backdrop.show {
+  opacity: 1; }
+
+.nodisplay {
+  background-color: #dcd4c9;
+  background-size: cover;
+  background-position: center;
+  height: 730px; }
+
+@media (min-width: 768px) {
+  .nodisplay {
+    background-image: url(../images/background.jpg); } }
+
+@media (min-width: 320px) {
+  .nodisplay {
+    background-color: #dcd4c9; } }
+
+.btn-primary {
+  background-color: #d4af37;
+  border: none; }
+
+.btn-primary:hover {
+  background-color: #c6634c;
+  border: none; }
+
+body {
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  color: #231f20; }
+
+.nav-item {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.vertical-size {
+  font-size: 2rem; }
+
+.modal-header {
+  border-bottom: none; }
+
+.modal-content button span {
+  font-size: 3rem; }
+
+.page-section-title {
+  font-family: "Lato", Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 4rem;
+  color: #c6634c;
+  font-size: 2rem; }
+
+.page-section-title span {
+  font-style: normal;
+  font-weight: normal; }
+
+#contact-form {
+  height: 900px; }
+
+.vertical-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh; }
+
+.hide {
+  display: none; }
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold; }
+
+h2::after {
+  padding-top: 1rem;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  border-bottom: 3px solid #d4af37;
+  width: 100px; }
+
+.menu-icon {
+  position: absolute;
+  display: block; }
+
+#main-nav-icon {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; }
+
+#main-nav-icon:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg); }
+
+footer {
+  background-color: #c5c5c5; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/nav-icon.png");
+  background-size: cover; }
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("../images/nav-icon.png");
+  background-size: cover; }

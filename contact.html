@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Favoree</title>
+  </head>
+
+  <body id="page-contact">   
+      
+      <header id="page-contact" class="site-header d-flex flex-column align-content-between container">
+        
+        <!-- Nav -->
+        <nav class="site-nav family-sans navbar navbar-expand-md">
+          <div class="container-fluid">
+
+            <button type="button" class="navbar-toggler collapsed navbar-light" data-toggle="modal" data-target="#nav-modal" aria-controls="#nav-modal">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+            </button> 
+
+            <a class="navbar-brand text-uppercase" href="index.html">
+              <img src="images/logo.png" alt="Favoree Logo"/>
+            </a>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="nav-modal">
+          <div class="modal-dialog">
+              
+            <div class="modal-content">
+                
+              <div class="container">
+                <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              </div>
+                
+              <div class="vertical-center">
+                <div class="modal-body">
+                  <a class="nav-item nav-link mb-3 vertical-size" href="index.html">home</a>
+                  <a class="nav-item nav-link mb-3 vertical-size" href="#page-about">about</a>
+                  <a class="nav-item nav-link mb-3 vertical-size" href="#page-services">services</a>
+                  <a class="nav-item nav-link mb-3 vertical-size" href="#page-gallery">gallery</a>
+                  <a class="nav-item nav-link mb-3 vertical-size" href="contact.html">contact</a>
+                </div><!-- modal-body -->
+              </div><!-- vertical-center -->
+            </div><!-- modal-content -->
+          </div><!-- modal-dialog -->
+        </div><!-- modal -->
+              
+          <div class="navbar-nav d-md-flex hide">
+            <a class="nav-item nav-link" href="index.html">home</a>
+            <a class="nav-item nav-link" href="#page-about">about</a>
+            <a class="nav-item nav-link" href="#page-services">services</a>
+            <a class="nav-item nav-link" href="#page-gallery">gallery</a>
+            <a class="nav-item nav-link" href="contact.html">contact</a>
+          </div><!-- nav-bar -->
+
+          </div><!-- container-fluid -->
+            
+        </nav>
+          
+      </header>
+      
+      
+      <article id="contact-form">
+
+        <div class="container pt-5">
+
+          <section id="contact-info">
+            <h2 class="pt-5 text-center mb-5">Let's Start Chatting</h2>
+    
+            <h3 class="text-center">Evie</h3>
+            <p class="text-center mb-5">
+              San Francisco, CA<br>
+              415-555-5555<br>
+              evie077@favoree.com
+            </p>
+          </section>
+
+      <form>
+
+        <fieldset class="form-group">
+
+        <legend class="sr-only">Contact info</legend>
+
+        <div class="form-group">
+          <label class="form-control-label" for="name">Name</label>
+          <input class="form-control" type="text" id="name" placeholder="Your full name">
+        </div><!-- form-group -->
+
+        <div class="form-group">
+          <label class="form-control-label" for="email">Email</label>
+          <input class="form-control" type="text" id="email" placeholder="Your email address: email@email.com">
+        </div><!-- form-group -->
+    
+        <div class="form-group">
+          <label class="form-control-label" for="occasion">Occasion</label>
+          <select class="form-control" id="occasion">
+            <option>Choose</option>
+            <option value="babyshower">Baby Shower</option>
+            <option value="bachelor">Bachelor</option>
+            <option value="baptismal">Baptismal</option>
+            <option value="birthday">Birthday</option>
+            <option value="bridalshower">Bridal Shower</option>
+            <option value="businessfunction">Business Function</option>
+            <option value="fundraiser">Fundraiser</option>
+            <option value="graduation">Graduation</option>
+            <option value="holiday">Holiday</option>
+            <option value="housewarming">House Warming</option>
+            <option value="justbecause">Just Because</option>
+            <option value="other">Other</option>
+            <option value="sports">sports</option>
+            <option value="staffappreciation">Staff Appreciation</option>
+            <option value="wedding">Wedding</option>
+          </select>
+        </div><!-- form-group -->
+
+        <div class="form-group">
+          <label class="form-control-label" for="message">Message</label>
+          <textarea class="form-control" id="message" placeholder="Tell me what your looking for..."></textarea>
+        </div><!-- form-group -->
+      
+        </fieldset><!-- fieldset --> 
+    
+        <button class="btn btn-primary" type="submit">Send</button>   
+        
+    </form>
+
+    </div><!-- content container -->
+    
+    </article>
+
+    <footer class="site-footer align-content-center">
+      <div class="container d-flex py-4 justify-content-between">
+          <div class="copyright align-self-center">
+            Copyright © 2018 by Favoree. All rights reserved.
+          </div><!-- copyright -->
+          <div class="go-top">
+            <a title="Back to Top" href="#contact-form"><img src="images/back-to-top.png" /></a>
+          </div><!-- go-top -->
+      </div><!-- container -->
+    </footer>
+    
+    <!-- Javascripts -->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+      
+  </body>
+    
+</html>
