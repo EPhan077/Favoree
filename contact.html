@@ -15,10 +15,10 @@
 
   <body id="page-contact">   
       
-      <header id="page-contact" class="site-header d-flex flex-column align-content-between container">
+      <header id="header-contact" class="site-header align-content-between container">
         
         <!-- Nav -->
-        <nav class="site-nav family-sans navbar navbar-expand-md">
+        <nav class="site-nav navbar navbar-expand-md">
           <div class="container-fluid">
 
             <button type="button" class="navbar-toggler collapsed navbar-light" data-toggle="modal" data-target="#nav-modal" aria-controls="#nav-modal">
@@ -31,7 +31,7 @@
             </a>
 
 
-        <!-- Modal -->
+        <!-- Modal for drop-down nav -->
         <div class="modal fade" id="nav-modal">
           <div class="modal-dialog">
               
@@ -44,21 +44,22 @@
               <div class="vertical-center">
                 <div class="modal-body">
                   <a class="nav-item nav-link mb-3 vertical-size" href="index.html">home</a>
-                  <a class="nav-item nav-link mb-3 vertical-size" href="#page-about">about</a>
-                  <a class="nav-item nav-link mb-3 vertical-size" href="#page-services">services</a>
-                  <a class="nav-item nav-link mb-3 vertical-size" href="#page-gallery">gallery</a>
+                  <a class="nav-item nav-link mb-3 vertical-size" href="about.html">about</a>
+                  <a class="nav-item nav-link mb-3 vertical-size" href="services.html">services</a>
+                  <a class="nav-item nav-link mb-3 vertical-size" href="gallery.html">gallery</a>
                   <a class="nav-item nav-link mb-3 vertical-size" href="contact.html">contact</a>
                 </div><!-- modal-body -->
               </div><!-- vertical-center -->
             </div><!-- modal-content -->
           </div><!-- modal-dialog -->
         </div><!-- modal -->
-              
+          
+          <!-- Extended nav on top right -->
           <div class="navbar-nav d-md-flex hide">
             <a class="nav-item nav-link" href="index.html">home</a>
-            <a class="nav-item nav-link" href="#page-about">about</a>
-            <a class="nav-item nav-link" href="#page-services">services</a>
-            <a class="nav-item nav-link" href="#page-gallery">gallery</a>
+            <a class="nav-item nav-link" href="about.html">about</a>
+            <a class="nav-item nav-link" href="services.html">services</a>
+            <a class="nav-item nav-link" href="gallery.html">gallery</a>
             <a class="nav-item nav-link" href="contact.html">contact</a>
           </div><!-- nav-bar -->
 
@@ -67,11 +68,11 @@
         </nav>
           
       </header>
-      
-      
+    
+      <!-- Contact details -->
       <article id="contact-form">
 
-        <div class="container pt-5">
+        <div class="container">
 
           <section id="contact-info">
             <h2 class="pt-5 text-center mb-5">Let's Start Chatting</h2>
@@ -83,9 +84,10 @@
               evie077@favoree.com
             </p>
           </section>
-
+            
+      <!-- Contact form -->
       <form>
-
+          
         <fieldset class="form-group">
 
         <legend class="sr-only">Contact info</legend>
@@ -128,22 +130,22 @@
         </div><!-- form-group -->
       
         </fieldset><!-- fieldset --> 
-    
-        <button class="btn btn-primary" type="submit">Send</button>   
-        
+        <div class="text-center">
+        <button class="btn btn-lg btn-primary" type="submit">Send</button>   
+        </div>
     </form>
 
     </div><!-- content container -->
     
     </article>
-
+        
     <footer class="site-footer align-content-center">
       <div class="container d-flex py-4 justify-content-between">
           <div class="copyright align-self-center">
             Copyright © 2018 by Favoree. All rights reserved.
           </div><!-- copyright -->
           <div class="go-top">
-            <a title="Back to Top" href="#contact-form"><img src="images/back-to-top.png" /></a>
+            <a title="Back to Top" href="#page-contact"><img src="images/back-to-top.png" /></a>
           </div><!-- go-top -->
       </div><!-- container -->
     </footer>
