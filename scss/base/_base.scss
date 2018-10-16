@@ -1,0 +1,241 @@
+// Basics
+
+.navbar-nav a,
+.modal-body a,
+.nav-page-link {
+  color: $primary-color;
+}
+
+.navbar-nav a:hover,
+.modal-body a:hover,
+.nav-page-link:hover {
+  color: $secondary-color;
+}
+
+#section-testimonials {
+    background-color: $secondary-neutral-color;
+}
+
+.modal-backdrop,
+#page-nav,
+#contact-info,
+#contact-form,
+#about-nested,
+#services-nested,
+#contact-nested,
+#page-photogrid {
+    background-color: $primary-neutral-color;
+}
+  
+.modal-backdrop.fade,
+.modal-backdrop.show {
+    opacity: 1;
+}
+      
+.header-display { 
+    background-color: #dcd4c9;
+    background-size: cover; 
+    background-position: center;
+    height: 730px; 
+}
+
+.h1-height {
+    height: 625px;
+}
+
+#contact-form,
+#page-about {
+    height: 900px;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.hide {
+    display: none;
+}
+    
+footer {
+    background-color: #c5c5c5;
+}
+
+
+// Medias
+ 
+@media (min-width: 768px) {
+    .header-display {
+       background-image: url(../images/background.jpg);
+    }  
+    
+    .carousel-caption p {font-size:2rem;}
+}
+      
+@media (min-width: 320px) {
+    .header-display {
+      background-color: #dcd4c9;
+    }
+    
+    .carousel-caption p {font-size:1.5rem;}
+}
+
+
+// Carousel 
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:90%;
+    height:100%;
+}
+
+.carousel-caption div {
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.caption-center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// Button
+
+.btn {
+    width: 70%;
+}
+
+.btn-primary {
+        background-color: #d4af37;
+        border:none;
+}
+
+.btn-primary:hover {
+        background-color: #c6634c;
+        border:none;
+}
+
+// Icons
+
+.navbar-light .navbar-toggler-icon,
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("../images/nav-icon.png");
+  background-size: cover;
+}
+
+.menu-icon {
+    position: absolute;
+    display: block;
+}
+    
+#main-nav-icon {
+    transition: all 1s ease-in-out;
+}
+    
+#main-nav-icon:hover {
+    transform: rotate(360deg);
+}
+
+// Gallery
+
+.img-cap {
+	position:relative;
+	background-color:rgba(0,0,0,1);
+	z-index:1;
+	overflow:hidden;
+}
+
+.round {
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	z-index:17;
+    background-color:rgba(255,255,255,0.5);
+	border-radius:100%;
+	top:-250px;
+	transition:all 1s;
+	opacity:0;
+	text-align:center;
+    font-size: 1rem;
+    padding-top: 1rem;
+    color: #fff;
+}
+
+.img-cap:hover .round{
+	border-radius:0%;
+	background-color:rgba(0,0,0,0.5);
+	top:80%;
+	opacity:1;
+	text-align:center;
+}
+   
+
+// Typography
+
+body {
+    font-family: $primary-font-family;
+    color: #231f20;
+}
+
+.nav-item {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.vertical-size {
+    font-size: 2rem;
+}
+
+.modal-header {
+        border-bottom: none;
+}
+    
+.modal-content button span {
+        font-size: 3rem;
+}
+
+.page-section-title,
+blockquote {
+    font-family: $secondary-font-family;
+    font-style: italic;
+    font-weight: bold;
+    color: $primary-color;
+}
+
+.page-section-title {
+    line-height: 4rem;
+    color: $primary-color;
+    font-size: 2rem;
+}
+
+.page-section-title span,
+blockquote span {
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+    
+h2::after {
+    padding-top: 1rem;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    border-bottom: 3px solid #d4af37;
+    width: 100px;
+}
+
+#services-nested h3 {
+    color: $primary-color;
+    margin-bottom: 2rem;
+}
