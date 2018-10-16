@@ -94,17 +94,19 @@
 
         <div class="form-group">
           <label class="form-control-label" for="name">Name</label>
-          <input class="form-control" type="text" id="name" placeholder="Your full name">
+          <input class="form-control" type="text" id="name" placeholder="Your full name" required>
+          <div class="ml-1 mt-1 error" id="errName"></div>
         </div><!-- form-group -->
 
         <div class="form-group">
           <label class="form-control-label" for="email">Email</label>
-          <input class="form-control" type="text" id="email" placeholder="Your email address: email@email.com">
+          <input class="form-control" type="text" id="email" placeholder="Your email address: email@email.com" required>
+          <div class="ml-1 mt-1 error" id="errEmail"></div>
         </div><!-- form-group -->
     
         <div class="form-group">
           <label class="form-control-label" for="occasion">Occasion</label>
-          <select class="form-control" id="occasion">
+          <select class="form-control" id="occasion" required>
             <option>Choose</option>
             <option value="babyshower">Baby Shower</option>
             <option value="bachelor">Bachelor</option>
@@ -122,11 +124,13 @@
             <option value="staffappreciation">Staff Appreciation</option>
             <option value="wedding">Wedding</option>
           </select>
+          <div class="ml-1 mt-1 error" id="errOccasion"></div>
         </div><!-- form-group -->
 
         <div class="form-group">
           <label class="form-control-label" for="message">Message</label>
-          <textarea class="form-control" id="message" placeholder="Tell me what your looking for..."></textarea>
+          <textarea class="form-control" id="message" placeholder="Tell me what your looking for..." required></textarea>
+          <div class="ml-1 mt-1 error" id="errMessage"></div>
         </div><!-- form-group -->
       
         </fieldset><!-- fieldset --> 
@@ -145,7 +149,7 @@
             Copyright © 2018 by Favoree. All rights reserved.
           </div><!-- copyright -->
           <div class="go-top">
-            <a title="Back to Top" href="#page-contact"><img src="images/back-to-top.png" /></a>
+            <a title="Back to Top" href="#page-contact"><img src="images/back-to-top.png" alt="arrow icon to go back to top of page" /></a>
           </div><!-- go-top -->
       </div><!-- container -->
     </footer>
@@ -154,6 +158,7 @@
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/validation.js"></script>
       
   </body>
     
