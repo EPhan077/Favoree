@@ -5,7 +5,8 @@
 
 .navbar-nav a:hover,
 .modal-body a:hover,
-.nav-page-link:hover {
+.nav-page-link:hover,
+.navbar-nav a:active {
   color: #d4af37; }
 
 #section-testimonials {
