@@ -187,3 +187,20 @@ h2::after {
   padding: 0 10px 30px 10px;
   margin-top: 30px;
   text-align: center; }
+
+.animate {
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px; }
+
+.translateY {
+  -webkit-transform: translateY(1);
+          transform: translateY(1);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease; }
+
+.animate:hover .translateY {
+  -webkit-transform: translateY(2em);
+          transform: translateY(2em); }

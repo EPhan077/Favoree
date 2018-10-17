@@ -235,3 +235,23 @@ h2::after {
   margin-top: 30px;
   text-align:center;
 }
+
+// Animation - Go down
+
+  .animate {
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+}
+
+     
+          
+ .translateY{
+  transform: translateY(1);
+  transition: transform 0.5s ease;
+}
+
+
+.animate:hover .translateY{
+  transform: translateY(2em);
+}
