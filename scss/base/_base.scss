@@ -150,10 +150,6 @@ h2::after {
     }  
     
     .carousel-caption p {font-size:1.2rem;}
-    
-    .col-display {
-        display: flex;
-    }
 }
   
 @media (min-width: 320px) {
@@ -165,9 +161,7 @@ h2::after {
 
 // Button
 
-.btn {
-    width: 70%;
-}
+
 
 .btn-primary {
         background-color: $secondary-color;

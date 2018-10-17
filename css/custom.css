@@ -122,18 +122,11 @@ h2::after {
   .header-display {
     background-image: url(../images/background.jpg); }
   .carousel-caption p {
-    font-size: 1.2rem; }
-  .col-display {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; } }
+    font-size: 1.2rem; } }
 
 @media (min-width: 320px) {
   .header-display {
     background-color: #dcd4c9; } }
-
-.btn {
-  width: 70%; }
 
 .btn-primary {
   background-color: #d4af37;
