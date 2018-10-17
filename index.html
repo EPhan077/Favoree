@@ -14,7 +14,7 @@
 
   <body id="page-index">
       
-  <header id="header-index" class="site-header header-display  align-content-between">
+  <header id="header-index" class="site-header header-display  align-content-between" style="height: 100%;">
     
     <!-- Nav -->
     <nav class="site-nav navbar navbar-expand-md">
@@ -71,8 +71,8 @@
 
         <section class="col-md-4 my-3 d-md-flex hide">
           <div class="icon layout-icon align-self-center" style="width: 300px;">
-            <a href="menu.html"><img  class="layout-image img-fluid text-center" id="main-nav-icon" src="images/main-nav-icon.png" alt="main navigation icon"/></a>
-          </div><!-- icon -->
+            <a href="menu.html" data-toggle="tooltip" data-placement="top" title="Click to see Menu"><img  class="layout-image img-fluid text-center" id="main-nav-icon" src="images/main-nav-icon.png" alt="main navigation icon"/></a>
+          </div><!-- icon -->   
         </section>
 
         <section class="col-md-4 my-3 d-md-flex hide">
@@ -83,8 +83,37 @@
 
   </article>
       
-  </header>
+  <div class="text-center mb-5">
+    <div class="animate">
+      <div class="translateY">
+          <a href="#" data-toggle="tooltip" data-placement="top" title="See more below"><img src="/images/go-down.png" alt="go down to see more icon"  /> </a>
+      </div>
+    </div>
+  </div><!-- icon -->
+</header>    
       
+      <style>
+          
+  .animate {
+  cursor: pointer;
+  text-align: center;
+  line-height: 50px;
+}
+
+     
+          
+ .translateY{
+  transform: translateY(1);
+  transition: transform 0.5s ease;
+}
+
+
+.animate:hover .translateY{
+  transform: translateY(2em);
+}
+}
+
+      </style>
       
   <!-- Services -->   
   <article id="section-services" class="page-section">
@@ -278,7 +307,7 @@
       
         </fieldset><!-- fieldset --> 
         <div class="text-center">
-        <button class="btn btn-lg btn-primary" type="submit" aria-label="Send">Send<span class="sr-only">Submit contact and message button</span></button>   
+        <button class="btn btn-lg btn-primary send-btn" type="submit" aria-label="Send">Send<span class="sr-only">Submit contact and message button</span></button>   
         </div><!-- button -->
        </form>
                 
@@ -305,6 +334,12 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/validation.js"></script>
+      
+    <script>
+    $(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
       
   </body>
     
