@@ -67,6 +67,9 @@ footer {
 body {
     font-family: $primary-font-family;
     color: #231f20;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-item {
@@ -134,35 +137,9 @@ h2::after {
     color: #ff0000;
 }
 
-.carousel-caption p {
-    font-size: .8rem;
-}
-
-// Carousel 
-
-.layout-carousel {
-    position: relative;
-}
-
-.carousel-caption {
-    position: absolute;
-    z-index: 1;
-    display:table;
-    width:90%;
-    height:100%;
-}
-
-.carousel-caption div {
-    display:table-cell;
-    vertical-align: middle;
-    text-align:center;
-}
-
-.caption-center {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.carousel-item p {
+    font-family: $secondary-font-family;
+    font-style: italic;
 }
 
 // Medias
@@ -173,6 +150,10 @@ h2::after {
     }  
     
     .carousel-caption p {font-size:1.2rem;}
+    
+    .col-display {
+        display: flex;
+    }
 }
   
 @media (min-width: 320px) {
@@ -250,4 +231,11 @@ h2::after {
 	top:80%;
 	opacity:1;
 	text-align:center;
+}
+
+// Carousel
+#layout-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align:center;
 }

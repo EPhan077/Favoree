@@ -55,7 +55,10 @@ footer {
 
 body {
   font-family: "Roboto Condensed", Arial, sans-serif;
-  color: #231f20; }
+  color: #231f20;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .nav-item {
   text-align: center;
@@ -111,36 +114,19 @@ h2::after {
   font-size: .8rem;
   color: #ff0000; }
 
-.carousel-caption p {
-  font-size: .8rem; }
-
-.layout-carousel {
-  position: relative; }
-
-.carousel-caption {
-  position: absolute;
-  z-index: 1;
-  display: table;
-  width: 90%;
-  height: 100%; }
-
-.carousel-caption div {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center; }
-
-.caption-center {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%); }
+.carousel-item p {
+  font-family: "Lato", Helvetica, sans-serif;
+  font-style: italic; }
 
 @media (min-width: 768px) {
   .header-display {
     background-image: url(../images/background.jpg); }
   .carousel-caption p {
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+  .col-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
 
 @media (min-width: 320px) {
   .header-display {
@@ -201,4 +187,9 @@ h2::after {
   background-color: rgba(0, 0, 0, 0.5);
   top: 80%;
   opacity: 1;
+  text-align: center; }
+
+#layout-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
   text-align: center; }
