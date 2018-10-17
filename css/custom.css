@@ -29,7 +29,7 @@
   background-color: #dcd4c9;
   background-size: cover;
   background-position: center;
-  height: 730px; }
+  height: 600px; }
 
 .h1-height {
   height: 625px; }
@@ -55,10 +55,7 @@ footer {
 
 body {
   font-family: "Roboto Condensed", Arial, sans-serif;
-  color: #231f20;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto; }
+  color: #231f20; }
 
 .nav-item {
   text-align: center;
@@ -120,13 +117,17 @@ h2::after {
 
 @media (min-width: 768px) {
   .header-display {
-    background-image: url(../images/background.jpg); }
+    background-image: url(../images/background.jpg);
+    height: 730px; }
   .carousel-caption p {
     font-size: 1.2rem; } }
 
 @media (min-width: 320px) {
   .header-display {
     background-color: #dcd4c9; } }
+
+.send-btn {
+  width: 70%; }
 
 .btn-primary {
   background-color: #d4af37;
