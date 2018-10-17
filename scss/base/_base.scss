@@ -57,6 +57,7 @@
 .hide {
     display: none;
 }
+
     
 footer {
     background-color: #c5c5c5;
@@ -139,6 +140,14 @@ h2::after {
     font-style: italic;
 }
 
+// Carousel
+
+#layout-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align:center;
+}
+
 // Medias
  
 @media (min-width: 768px) {
@@ -186,16 +195,8 @@ h2::after {
     position: absolute;
     display: block;
 }
-    
-#main-nav-icon {
-    transition: all 1s ease-in-out;
-}
-    
-#main-nav-icon:hover {
-    transform: rotate(360deg);
-}
 
-// Gallery
+// Animation - Caption - Gallery
 
 .img-cap {
 	position:relative;
@@ -228,14 +229,6 @@ h2::after {
 	text-align:center;
 }
 
-// Carousel
-
-#layout-carousel {
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
-  text-align:center;
-}
-
 // Animation - Go down
 
   .animate {
@@ -248,6 +241,25 @@ h2::after {
   transition: transform 0.5s ease;
 }
 
-.animate:hover .translateY{
-  transform: translateY(2em);
+.animate:hover .translateY {
+    transform: translateY(2em);
+}
+
+// Animation - Back to top
+
+#back-to-top {
+    height: 50px;
+    transition: transform .5s ease;
+}
+
+#back-to-top:hover {
+    transform: translateY(-5px);
+}
+
+#main-nav-icon {
+    transition: all 1s ease-in-out;
+}
+    
+#main-nav-icon:hover {
+    transform: rotate(360deg);
 }
