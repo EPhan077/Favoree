@@ -28,7 +28,8 @@ body.fade-out {
 #about-nested,
 #services-nested,
 #contact-nested,
-#page-photogrid {
+#page-photogrid,
+.header-display {
   background-color: #dcd4c9; }
 
 .modal-backdrop.fade,
@@ -36,7 +37,6 @@ body.fade-out {
   opacity: 1; }
 
 .header-display {
-  background-color: #dcd4c9;
   background-size: cover;
   background-position: center;
   height: 600px; }
