@@ -14,12 +14,12 @@ I actually do create party favors as a hobby of mines and have been approach abo
 
 ## Bootstrap
 
-The bootstrap framework was utilized with a mix of customed CSS. SCSS and Gulp was also used for the help of deployment. 
+The bootstrap framework was utilized with a mix of customed CSS. SASS and Gulp was also used for the help of deployment. 
 
 
 ## Upcoming Focus
 
-Better browser compatibility. I have yet to learn on how to perform this successfully. The ever challenging task. I hope to hone in on this in future courses. 
+Better browser compatibility. I have yet to learn on how to perform this successfully. The ever challenging task. I hope to hone in on this in future courses.
 
 ## Website Link
 
