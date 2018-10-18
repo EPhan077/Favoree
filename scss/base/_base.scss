@@ -32,7 +32,8 @@ body.fade-out {
 #about-nested,
 #services-nested,
 #contact-nested,
-#page-photogrid {
+#page-photogrid,
+.header-display {
     background-color: $primary-neutral-color;
 }
   
@@ -42,7 +43,6 @@ body.fade-out {
 }
       
 .header-display { 
-    background-color: #dcd4c9;
     background-size: cover; 
     background-position: center;
     height: 600px;
@@ -148,7 +148,6 @@ h2::after {
     font-family: $secondary-font-family;
     font-style: italic;
 }
-
 // Carousel
 
 #layout-carousel {
