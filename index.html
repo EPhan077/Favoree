@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed" rel="stylesheet"> 
     <link rel="stylesheet" href="css/custom.css">
-    <title>Favoree</title>
+    <title aria-label="Fay-Voh-Ree">Favoree</title>
   </head>
 
   <body id="page-index">
@@ -26,7 +26,7 @@
           </button> 
 
           <a class="navbar-brand text-uppercase" href="index.html">
-          <img src="images/logo.png" alt="Favoree Logo" />
+          <img aria-label="Fay-Voh-Ree" src="images/logo.png" alt="Favoree Logo" />
           </a>
 
     <!-- Modal for drop-down nav -->
@@ -52,29 +52,30 @@
 </nav>
  
   <!-- Header CTA -->   
-  <article id="section-cta" class="page-section">
-
+  <article id="page-section-cta" class="page-section align-middle">
+      
     <div class="layout-iconcolumns container py-5">
-        
       <div class="row text-center">
-
+          
+        <!-- CTA Header 1 Title Quote -->  
         <section class="col-md-4 my-3">
-            
           <div class="layout-title">
           <div class="text-center text-md-left align-self-center">
           <img class="mb-2" src="images/quote-icon.png" alt="header one quote icon"/>
           <h1 class="page-section-title mb-4">Happiness doesn’t come from what we get, but from what we give.<br><span>-Ben Carson</span></h1>
           <a class="btn btn-primary btn-lg" href="contact.html">Contact Me Now<span class="sr-only">Contact now button</span></a>
-          </div>
-          </div>
+          </div><!-- text-center -->
+          </div><!-- layout-titel -->
         </section>
-
+          
+        <!-- CTA Header Menu Nav Icon -->
         <section class="col-md-4 my-3 d-md-flex hide">
           <div class="icon layout-icon align-self-center" style="width: 300px;">
             <a href="menu.html" data-toggle="tooltip" data-placement="top" title="Click to see Menu"><img  class="layout-image img-fluid text-center" id="main-nav-icon" src="images/main-nav-icon.png" alt="main navigation icon"/></a>
           </div><!-- icon -->   
         </section>
-
+          
+        <!-- CTA Header extra column for positioning-->
         <section class="col-md-4 my-3 d-md-flex hide">
         </section>
           
@@ -82,17 +83,17 @@
     </div><!-- layout -->
 
   </article>
-      
+  
+  <!-- See More Below Icon -->
   <div class="text-center mb-5">
-    <div class="animate">
+    <div id="go-down">
       <div class="translateY">
-            <a href="#section-services" data-toggle="tooltip" data-placement="top" title="See More Below"><img  class="layout-image img-fluid text-center" id="main-go-down" src="images/go-down.png" alt="main navigation icon"/></a>
-      </div>
-    </div>
+            <a href="#section-services" data-toggle="tooltip" data-placement="top" title="See More Below"><img  class="layout-image img-fluid text-center" id="main-go-down-icon" src="images/go-down.png" alt="main down arrow icon"/></a>
+      </div><!-- translateY -->
+    </div><!-- animate -->
   </div><!-- icon -->
 </header>    
     
-      
   <!-- Services -->   
   <article id="section-services" class="page-section">
 
@@ -101,15 +102,16 @@
     <h2 class="text-center mb-5">Custom-made party favors</h2>
         
       <div class="row text-center">
-
+          
+        <!-- Service Offering 1 --> 
         <section class="col-md-4 my-3">
-            
           <div class="icon layout-icon">
             <img class="mb-4" src="images/consultation-icon.png" alt="consultation service icon"/>
           </div><!-- icon -->
           <p class="layout-text">One-on-one consultation where I can learn exactly what you are looking for and needing. Every party, event or reason is unique and I will customize the party favor and even the budget accordingly.</p>
         </section>
-
+          
+        <!-- Service Offering 2 --> 
         <section class="col-md-4 my-3">
           <div class="icon layout-icon">
             <img class="mb-4" src="images/creation-icon.png" alt="creation service icon"/>
@@ -117,6 +119,7 @@
           <p class="layout-text">The creation process is provided from start to finish: design concept to selection of products. All party favors created are custom-made and personalized by me.</p>
         </section>
 
+        <!-- Service Offering 3 --> 
         <section class="col-md-4 my-3">
           <div class="icon layout-icon">
             <img class="mb-4" src="images/delivery-icon.png" alt="delivery service icon"/>
@@ -136,81 +139,84 @@
         <h2 class="text-center">Customers rave about them</h2>
     </div><!-- container -->
     
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <div class="carousel slide" data-ride="carousel" id="layout-carousel">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="carousel slide" data-ride="carousel" id="layout-carousel">
+              
+              <!-- Bottom Carousel Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#layout-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#layout-carousel" data-slide-to="1"></li>
+                <li data-target="#layout-carousel" data-slide-to="2"></li>
+              </ol>
+              
+              <!-- Carousel Items - Testimonials -->
+              <div class="carousel-inner pb-5">
+                  
+                <!-- Testimony 1 -->
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <img class="mb-3" src="images/testimony1.png" alt="quote icon for caption" />
+                      <p>&ldquo;The party favors was so beautiful and elegant for a  house warming party that I was hosting. The guest was in love with them!&rdquo;</p>
+                      <small><strong>Julia Quach, Real Estate Agent</strong></small>
+                    </div><!-- col-sm-12 -->
+                  </div><!-- row -->
+                </div><!-- carousel-item -->
+              
+              <!-- Testimony 2 -->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <img class="mb-3" src="images/testimony2.png" alt="quote icon for caption" />
+                      <p>&ldquo;Very creative and thought out party favors. My teachers loved them all! It was perfect for Teacher Appreciation week!&rdquo;</p>
+                      <small><strong>Shaina Blake, Educational Coordinator</strong></small>
+                    </div><!-- col-sm-12 -->
+                  </div><!-- row -->
+                </div><!-- carousel-item -->
+                
+                <!-- Testimony 3 -->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <img class="mb-3" src="images/testimony3.png" alt="quote icon for caption" />
+                      <p>&ldquo;My guests truly had so much fun and enjoyed the party favors. Totally met the needs of my holiday party. It was made with passion!&rdquo;</p>
+                      <small><strong>Lily Nguyen, Project Coordinator</strong></small>
+                    </div><!-- col-sm-12 -->
+                  </div><!-- row -->
+                </div><!-- carousel-item -->
+                  
+                <!-- Prev/Next Arrows -->
+                <a class="carousel-control-prev" href="#layout-carousel" role="button" data-slide="prev" aria-label="Previous">
+                  <span class="carousel-control-prev-icon" aria-hidden="true">
+                  <span class="sr-only">Previous</span>
+                </span>
+                </a>
       
-<!-- Bottom Carousel Indicators -->
-<ol class="carousel-indicators">
-  <li data-target="#layout-carousel" data-slide-to="0" class="active"></li>
-  <li data-target="#layout-carousel" data-slide-to="1"></li>
-  <li data-target="#layout-carousel" data-slide-to="2"></li>
-</ol>
-        
-<!-- Carousel Slides / Quotes -->
-<div class="carousel-inner pb-5">
-
-<!-- Quote 1 -->
-<div class="carousel-item active">
-  <div class="row">
-    <div class="col-sm-12">
-      <img class="mb-3" src="images/testimony1.png" alt="quote icon for caption" />
-        <p>&ldquo;The party favors was so beautiful and elegant for a  house warming party that I was hosting. The guest was in love with them!&rdquo;</p>
-      <small><strong>Julia Quach, Real Estate Agent</strong></small>
-    </div>
-  </div>
-</div>
-
-<!-- Quote 2 -->
-<div class="carousel-item">
-  <div class="row">
-    <div class="col-sm-12">
-      <img class="mb-3" src="images/testimony2.png" alt="quote icon for caption" />
-      <p>&ldquo;Very creative and thought out party favors. My teachers loved them all! It was perfect for Teacher Appreciation week!&rdquo;</p>
-      <small><strong>Shaina Blake, Educational Coordinator</strong></small>
-    </div>
-  </div>
-</div>
-
-<!-- Quote 3 -->
-<div class="carousel-item">
-  <div class="row">
-    <div class="col-sm-12">
-      <img class="mb-3" src="images/testimony3.png" alt="quote icon for caption" />
-      <p>&ldquo;My guests truly had so much fun and enjoyed the party favors. Totally met the needs of my holiday party. It was made with passion!&rdquo;</p>
-      <small><strong>Lily Nguyen, Project Coordinator</strong></small>
-    </div>
-  </div>
-</div>      
-            <!-- Prev/Next Arrows -->
-            <a class="carousel-control-prev" href="#layout-carousel" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true">
-              <span class="sr-only">Previous</span>
-            </span>
-            </a>
+                <a class="carousel-control-next" href="#layout-carousel" role="button" data-slide="next" aria-label="Next">
+                  <span class="carousel-control-next-icon" aria-hidden="true">
+                  <span class="sr-only">Next</span>
+                </span>
+                </a>
+                  
+              </div><!-- carousel-inner -->
+              
+          </div><!-- carousel slides-->
+        </div><!-- col-md-12 -->
+      </div><!-- row-->
+    </div><!-- container -->
       
-            <a class="carousel-control-next" href="#layout-carousel" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true">
-              <span class="sr-only">Previous</span>
-              </span>
-            </a>
-  
-        </div>
-      </div>                          
-    </div>
-  </div>
-</div>
-      
-      </article>
+</article>
 
-<!-- Contact-->
+<!-- Contact -->
 <article id="contact-nested" class="page-section text-reverse pb-5">
     
     <div class="container pt-5 mb-5">
         <h2 class="text-center">Let's start chatting</h2>
     </div><!-- container -->
-
+    
+    <!-- Contact - Details -->
     <section class="layout-nested container-fluid vertical-padding">
         
       <div class="row align-items-center justify-content-center">
@@ -233,7 +239,7 @@
               
         <div class="col-lg-6">
         
-        <!-- Form -->
+        <!-- Contatct - Form -->
         <form>
           
         <fieldset class="form-group">
@@ -268,7 +274,7 @@
             <option value="housewarming">House Warming</option>
             <option value="justbecause">Just Because</option>
             <option value="other">Other</option>
-            <option value="sports">sports</option>
+            <option value="sports">Sports</option>
             <option value="staffappreciation">Staff Appreciation</option>
             <option value="wedding">Wedding</option>
           </select>
@@ -300,7 +306,7 @@
             Copyright © 2018 by Favoree. All rights reserved.
           </div><!-- copyright -->
           <div class="go-top">
-            <a title="Back to Top" href="#page-index">
+            <a title="Back to Top" href="#page-index" data-toggle="tooltip" data-placement="top" title="Go back to top" >
               <img id="back-to-top" src="images/back-to-top.png" alt="arrow icon to go back to top of page" />
             </a>
           </div><!-- go-top -->
@@ -318,6 +324,14 @@
       $('[data-toggle="tooltip"]').tooltip();
     });
     </script>
+    
+    <script>  
+        document.body.className += 'fade-out';
+        
+        $(function() {
+        $('body').removeClass('fade-out');
+        });
+    </script> 
       
   </body>
     

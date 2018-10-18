@@ -1,3 +1,13 @@
+body {
+  opacity: 1;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity; }
+
+body.fade-out {
+  opacity: 0;
+  -webkit-transition: none;
+  transition: none; }
+
 .navbar-nav a,
 .modal-body a,
 .nav-page-link {
@@ -115,6 +125,11 @@ h2::after {
   font-family: "Lato", Helvetica, sans-serif;
   font-style: italic; }
 
+#layout-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align: center; }
+
 @media (min-width: 768px) {
   .header-display {
     background-image: url(../images/background.jpg);
@@ -146,14 +161,6 @@ h2::after {
   position: absolute;
   display: block; }
 
-#main-nav-icon {
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out; }
-
-#main-nav-icon:hover {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg); }
-
 .img-cap {
   position: relative;
   background-color: black;
@@ -183,12 +190,7 @@ h2::after {
   opacity: 1;
   text-align: center; }
 
-#layout-carousel {
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
-  text-align: center; }
-
-.animate {
+#go-down {
   text-align: center;
   line-height: 50px; }
 
@@ -200,7 +202,7 @@ h2::after {
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease; }
 
-.animate:hover .translateY {
+#go-down:hover .translateY {
   -webkit-transform: translateY(2em);
           transform: translateY(2em); }
 
@@ -214,3 +216,11 @@ h2::after {
 #back-to-top:hover {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px); }
+
+#main-nav-icon {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out; }
+
+#main-nav-icon:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg); }
