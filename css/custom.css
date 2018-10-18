@@ -203,3 +203,14 @@ h2::after {
 .animate:hover .translateY {
   -webkit-transform: translateY(2em);
           transform: translateY(2em); }
+
+#back-to-top {
+  height: 50px;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease; }
+
+#back-to-top:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px); }
